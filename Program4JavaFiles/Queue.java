@@ -12,7 +12,6 @@ public class Queue<E>
    private int front, rear, count;
 
    /**
-
     @param capacity
     */
    public Queue(int capacity)
@@ -22,7 +21,6 @@ public class Queue<E>
    }
 
    /**
-
     @return
     */
 
@@ -32,7 +30,6 @@ public class Queue<E>
    }
 
    /**
-
     @return
     */
    public boolean isFull()
@@ -41,7 +38,6 @@ public class Queue<E>
    }
 
    /**
-
     @param x
     */
    public void enqueue(E x)
@@ -52,7 +48,6 @@ public class Queue<E>
    }
 
    /**
-
     @return
     */
    public Object dequeue()
@@ -64,7 +59,6 @@ public class Queue<E>
    }
 
    /**
-
     */
    public void clear()
    {
@@ -74,7 +68,6 @@ public class Queue<E>
    }
 
    /**
-
     @return
     */
    public int size()
