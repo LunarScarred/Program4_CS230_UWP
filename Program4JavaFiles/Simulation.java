@@ -1,4 +1,3 @@
-
 /**
  *
  * @author Hannah Mozdzen and Edward VanDerJagt
@@ -137,28 +136,28 @@ public class Simulation
    }
 
 }
-/*   
- Simulation class must maintain the following information: 
- o Average wait time—this is for those customers that had to wait in the 
- queue  
-   
- o Total wait time—the sum of all wait time of customers who finished and 
- left the restaurant 
-   
- o Number of customers did not have to wait 
-   
- o Number of customers finished and left the restaurant 
+/*
+ Simulation class must maintain the following information:
+ o Average wait time—this is for those customers that had to wait in the
+ queue
+
+ o Total wait time—the sum of all wait time of customers who finished and
+ left the restaurant
+
+ o Number of customers did not have to wait
+
+ o Number of customers finished and left the restaurant
  */
 
 
 /*
- Methods? 
+ Methods?
  SimAdd // adds a new customer
  --Check if Queue is full
  --if !isFull
- ---add an item of type customer into q 
- ---Calculate individual wait time, average wait, finished, noWait, wait, 
- and totalWait. May need to call new methods. 
+ ---add an item of type customer into q
+ ---Calculate individual wait time, average wait, finished, noWait, wait,
+ and totalWait. May need to call new methods.
  SimDepart
  SimAdvanceClock
  SimIsFull

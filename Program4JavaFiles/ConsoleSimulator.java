@@ -38,7 +38,7 @@ public class ConsoleSimulator
          {
             String command = stdin.readLine();
             // StringTokenizer st = new StringTokenizer(command, " ");
-            
+
             switch (command.charAt(0))
             {
                case 'A':
@@ -67,7 +67,7 @@ public class ConsoleSimulator
 
       } // ~~~ End of Try / Catch ~~~
    }
-   
+
    private void clock()
    {
       int c = stdin.nextInt();

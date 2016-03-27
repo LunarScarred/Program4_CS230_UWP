@@ -4,7 +4,6 @@
  */
 public class Prog4
 {
-
    /**
     @param args is not used
     */
@@ -19,5 +18,4 @@ public class Prog4
          System.out.println("Couldn't run ConsoleSimulator! " + e);
       }
    }
-   
 }

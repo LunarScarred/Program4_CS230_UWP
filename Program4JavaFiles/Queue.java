@@ -1,4 +1,3 @@
-
 /**
  A generic Queue class to simulate the waiting line. Using the “circular
  array” implementation
@@ -74,7 +73,7 @@ public class Queue<E>
    {
       return count;
    }
-   
+
    public int getFront()
    {
       return front;
